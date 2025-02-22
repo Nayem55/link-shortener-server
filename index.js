@@ -5,7 +5,7 @@ const cors = require("cors");
 const app = express();
 const PORT = 5000;
 const MONGO_URI = "mongodb+srv://palash:palash123@cluster0.n2m8y.mongodb.net/?retryWrites=true&w=majority";
-const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://1clk.xyz/";
 
 // Middleware
 app.use(cors());
